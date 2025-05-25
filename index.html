@@ -3,37 +3,116 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Page</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <title>Alpha Electronics</title>
     <link rel="stylesheet" href="./bootstrap.min.css" />
+    <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
-    <header class="main-header">
-      <div class="logo">Alpha Electronics</div>
-      <nav class="nav-links">
-        <ul>
-          <li><a href="./LivingRoom/living.html">Living Room</a></li>
-          <li><a href="./Kitchen/Kitchen.html">Kitchen</a></li>
-          <li><a href="./Office/Office.html">Office</a></li>
-          <li><a href="./About and Contact/About.html">About</a></li>
-          <li><a href="./About and Contact/Contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <!-- <h1 class="display-4">Home page</h1> -->
-     <div class="mainHero">
-      <div class="desc">
-        <p>Alpha your #1 Choice Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus assumenda necessitatibus saepe praesentium cupiditate quos tempore a culpa minus voluptates tenetur corrupti illum, autem laborum reiciendis possimus nihil fuga id!</p>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">Alpha Electronics</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="./LivingRoom/living.html"
+                >Living Room</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Kitchen/Kitchen.html">kitchen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Office/Office.html">Office</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./About and Contact/About.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./About and Contact/Contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
+    </nav>
 
-      <div class="images">
-        <img src="./Assets/Image/Home/sofa.jpg" alt="">
-        <img src="./Assets/Image/Home/tv.jpg" alt="">
-        <img src="./Assets/Image/Home/kitchen.jpg" alt="">
+    <div class="container text-center py-5">
+      <h1 class="display-4">Smart Electronics for Every Room</h1>
+      <p class="lead">
+        Explore our premium products for your Kitchen, Office, and Living Room.
+      </p>
+    </div>
 
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-4" id="kitchen">
+          <div class="card h-100">
+            <img
+              src="./Assets/Image/Home/kitchen.jpg"
+              class="card-img-top"
+              alt="Kitchen"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Kitchen</h5>
+              <p class="card-text">
+                Enjoy your cooking by our kitchen appliance
+              </p>
+              <a href="./Kitchen/Kitchen.html" class="btn btn-outline-primary"
+                >Visit Kitchen Room</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4" id="office">
+          <div class="card h-100">
+            <img
+              src="./Assets/Image/Home/sofa.jpg"
+              class="card-img-top"
+              alt="Office"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Office</h5>
+              <p class="card-text">Explore by checking our office materials</p>
+              <a href="./Office/Office.html" class="btn btn-outline-secondary"
+                >Visit office</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4" id="living">
+          <div class="card h-100">
+            <img
+              src="./Assets/Image/Home/tv1.jpg"
+              class="card-img-top tv"
+              alt="Living Room"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Living Room</h5>
+              <p class="card-text">
+                Explore,visit and enjoy our living room product
+              </p>
+              <a href="living.html" class="btn btn-outline-success"
+                >Visit Living Room</a
+              >
+            </div>
+          </div>
+        </div>
       </div>
-     </div>
+    </div>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
