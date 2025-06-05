@@ -5,7 +5,7 @@
   }
   .first-section img {
     width: 100%;
-    min-height: 218px;
+    min-height: 200px;
     border-radius: 8px;
     margin-bottom: 10px;
   }
@@ -14,7 +14,7 @@
     padding: 15px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    
   }
   
   .second-section {
