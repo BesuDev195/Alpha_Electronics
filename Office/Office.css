@@ -37,9 +37,13 @@
     text-align: center;
     font-size: 16px;
     border-radius: 10px;
+  
   }
   
   .first button:hover {
     background-color: #0056b3;
   }
-  
+  img{
+    height: 200px;
+  }
+ 
