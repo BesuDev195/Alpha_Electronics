@@ -1,0 +1,49 @@
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f8f9fa;
+}
+
+header {
+  background-color: #007bff !important;
+}
+
+header h1 {
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+main p {
+  font-size: 1.1em;
+  margin-bottom: 15px;
+}
+
+.card {
+  border: none;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  color: #007bff;
+  font-weight: 600;
+}
+
+footer {
+  background-color: #212529;
+}
+
+footer p {
+  margin-bottom: 0;
+  font-size: 0.9em;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
